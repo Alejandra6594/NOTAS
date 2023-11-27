@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="well well-sm">
+        <fieldset>
+          <legend class="text-start header">Sugerencias</legend>
+          <form [formGroup]="postForm" (ngSubmit)="onSubmit()" novalidate id="formulario">
+            <div class="col-md-8">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+              <!-- <label class="form-label">Name</label>-->
+              <input formControlName="name" type="text" class="form-control" required>
+            </div>
+
+            <div class="col-md-8">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa-regular fa-envelope fa-2xl"
+                style="color: #428eff;"></i></span>
+              <!--<label class="form-label">Email</label>-->
+              <input formControlName="email" type="text" class="form-control" required>
+            </div>
+
+            <div class="col-md-8">
+              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon fa-2xl"></i></span>
+              <!--<label class="form-label">Cell</label>-->
+              <input formControlName="cell" type="text" class="form-control" required>
+            </div>
+
+            <div class="col-md-8">
+            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa-regular fa-pen-to-square fa-2xl"
+              style="color: #4284f5;"></i></span>
+              <!--<label class="form-label">Comments</label>-->
+              <input formControlName="comments" type="text" class="form-control" required>
+            </div>
+            <div class="btn2">
+              <button [disabled]="!postForm.valid" type="submit" class="btn btn-primary">Store</button>
+            </div>
+           </form>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="Footer">
+  <app-footer></app-footer>
+</div>

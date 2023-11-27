@@ -1,0 +1,56 @@
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+}
+.text-start{
+  padding-left: 22%;
+}
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
+// Estilos para el cuerpo y fondo
+body {
+  padding: 20px;
+}
+
+// Estilos para la sección de texto
+.texto {
+  text-align: center;
+  margin-bottom: 20px;
+  h2 {
+    font-size: 24px;
+  }
+}
+.col-md-8{
+  display: flex;
+  padding-left: 20px;
+}
+// Estilos para el contenedor
+// Estilos para el contenedor
+.container {
+  padding: 20px;
+  max-width: 922px; // Ajusta el ancho máximo del formulario
+  margin: 0 auto; // Centra el formulario en la página
+
+}
+// Estilos para los campos de formulario
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; // Ajusta el tamaño de la fuente
+}
+
+// Estilos para el botón de envío
+.btn-primary {
+  padding: 10px 50px;
+  font-size: 18px;
+}
+.btn2{
+ margin: 10px 430px;
+}
+
