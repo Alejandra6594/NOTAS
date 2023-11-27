@@ -1,0 +1,32 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "nombre": "Ale vargas",
+      "correo": "ca.vargas@hotmail.com",
+      "telefono": "9995658201",
+      "sugerencia": "ampliar más el menú de cheescake"
+    },
+    {
+      "id": 2,
+      "nombre": "carlos canto",
+      "correo": "ca.canto@hotmail.com",
+      "telefono": "9995486295",
+      "sugerencia": "me gustaria ver cuantos postres quedan"
+    },
+    {
+      "id": 3,
+      "nombre": "daniel canche",
+      "correo": "ca.daniel@hotmail.com",
+      "telefono": "99865925146",
+      "sugerencia": "agregar calendario para las reservaciones"
+    },
+    {
+      "id": 4,
+      "nombre": "reyna espinosa",
+      "correo": "rey.nosa@hotmail.com",
+      "telefono": "9862554978",
+      "sugerencia": "fotos del local"
+    }
+  ]
+}

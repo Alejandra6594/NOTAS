@@ -1,0 +1,31 @@
+<div class="texto"><h2>Lista Sugerencias</h2></div>
+<div class="container">
+
+<table class="table table-hover table-striped">
+  <thead class="bg dark text-white">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Cell</th>
+      <th>Comments</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let post of Posts">
+      <td>{{post.name}}</td>
+      <td>{{post.email}}</td>
+      <td>{{post.cell}}</td>
+      <td>{{post.comments}}</td>
+      <td>
+        <button routerLink="/actualizarSu/{{post.id}}" class="btn btn-outline-secondary"><i class="fa-solid fa-pen-to-square"></i></button>
+        <button (click)="deleteRow(post)" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="Footer">
+  <app-footer></app-footer>
+</div>
